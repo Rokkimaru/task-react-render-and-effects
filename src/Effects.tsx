@@ -18,7 +18,7 @@ export function Effects(props: { sourceId: string }) {
 
     return (
         <div>
-            {props.sourceId}:{message}
+            {props.sourceId}: {message}
         </div>
     );
 }
